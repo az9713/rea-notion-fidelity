@@ -1,10 +1,20 @@
 # Research Block Fidelity
 
-**Edit a known part of a structured document. Keep the unfamiliar parts intact. See exactly what a readable export loses.**
+A readable copy of a rich note may lose details such as formatting, equations or unfamiliar content blocks. This editor keeps the richer structured data and shows what its own Markdown or HTML export cannot carry across.
 
-[Live editor](https://az9713.github.io/rea-notion-fidelity/app.html) · [Feature showcase](https://az9713.github.io/rea-notion-fidelity/) · [Windows / web / source downloads](https://github.com/az9713/rea-notion-fidelity/releases/tag/v0.1.0)
+Suppose you want to move research notes into plain-text notes or a web page. The words may survive while some structure disappears. You want to see those compromises before saving, and keep a fuller copy in case you need the original details later.
+
+**Example:** Load the sample note and edit a piece of text or an equation. Content the editor does not understand stays in the richer saved data. In the simpler export, it may become a placeholder or lose a property; the export report names those losses and asks you to acknowledge them.
+
+**What you install:** A separate local note editor with a Windows app and browser version.
+
+**Current scope:** This is independent software, not a modified Notion client, and it does not save changes to a Notion account. The loss report describes this editor's exports, not Notion's own export features. Live Notion compatibility remains unverified.
+
+[Live guide](https://az9713.github.io/rea-notion-fidelity/) · [Download packages](https://github.com/az9713/rea-notion-fidelity/releases/tag/v0.1.0)
 
 ![Actual Chromium application screenshot using synthetic notes](https://az9713.github.io/rea-notion-fidelity/editor-desktop.png)
+
+
 
 ## What it does
 
