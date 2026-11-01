@@ -1,0 +1,18 @@
+{
+  "command": "REA_PROFILE_DIR=<project>/.test-build/desktop-profile NotionFidelity.exe --self-test",
+  "exitCode": 0,
+  "limit": "Packaged Electron renderer/control/isolation smoke only; application behavior tested separately in Chromium with synthetic data.",
+  "realNotionIntegration": false,
+  "result": {
+    "passed": true,
+    "app": "Research Block Fidelity",
+    "renderer": {
+      "title": "Research Block Fidelity — editor",
+      "heading": "Keep the structure.Expose the compromise.",
+      "node": "undefined",
+      "selector": true
+    },
+    "scope": "Packaged renderer load and isolation smoke; app-specific core/browser tests separate"
+  },
+  "generatedAt": "2026-11-01T04:53:09.4412452Z"
+}

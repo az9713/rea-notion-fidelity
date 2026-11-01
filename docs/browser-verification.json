@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-11-01T04:53:14.555Z",
+  "authority": "Actual Chromium UI tests with synthetic files and real download/reimport; not Notion integration",
+  "browser": "156.0.8078.4",
+  "passed": [
+    "Synthetic document loads ten visible blocks including a nested child and opaque callout.",
+    "Per-run editing changes text/cache/one annotation and displays three precise changed fields.",
+    "Real native download preserves annotations, unknown fields, opaque payload and baseline.",
+    "Native project reimport retains edited document and original baseline differential.",
+    "Opaque block is inspectable JSON with no editable controls.",
+    "Projection download requires explicit loss acknowledgement and produces CSP-protected HTML.",
+    "Prototype-key import is rejected without replacing the current document.",
+    "Malicious imported HTML/URL is displayed as text and creates no executable elements or links.",
+    "Actual desktop/mobile screenshots captured; 390px viewport has no horizontal overflow.",
+    "No browser JavaScript errors or off-origin network requests.",
+    "Standalone local-file app opens and renders its sandboxed projection without a web server."
+  ],
+  "errors": [],
+  "network": "Only local static app assets requested; imported links were not fetched.",
+  "screenshots": [
+    "editor-desktop.png",
+    "editor-mobile.png"
+  ]
+}

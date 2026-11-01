@@ -1,0 +1,14 @@
+{
+  "name": "notion-research-block-fidelity",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs",
+    "test:browser": "node scripts/browser-test.mjs",
+    "release": "npm run build && npm test && python scripts/release.py"
+  },
+  "devDependencies": { "esbuild": "0.28.2", "playwright": "1.58.2", "electron": "45.2.1" }
+}

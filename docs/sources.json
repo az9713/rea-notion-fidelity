@@ -1,0 +1,14 @@
+{
+  "accessed": "2026-10-31 (America/Los_Angeles)",
+  "authority": "Independent public-schema implementation, not recovered Notion internals. No Notion network API request or private workspace used.",
+  "sources": [
+    {"title":"Notion block reference","url":"https://developers.notion.com/reference/block","claim":"Public block/type payload structure, paragraph/headings/list/quote/equation subset and child arrays. Current documentation includes types beyond this editor's supported subset; those remain opaque."},
+    {"title":"Notion rich-text reference","url":"https://developers.notion.com/reference/rich-text","claim":"Text, equation and mention runs; annotation flags, color, plain_text and href. Existing annotations/unknown fields are retained during narrow edits."},
+    {"title":"Retrieve block children","url":"https://developers.notion.com/reference/get-block-children","claim":"Child responses are paginated and require recursive retrieval for nested completeness. This local app does not fetch omitted children."},
+    {"title":"Notion request limits","url":"https://developers.notion.com/reference/request-limits","claim":"Documented text.content and inline equation expression request-value limits guide conservative edit bounds. This editor does not validate complete server request payloads."},
+    {"title":"Working with Markdown content","url":"https://developers.notion.com/guides/data-apis/working-with-markdown-content","claim":"Official Markdown create/read/update APIs exist; current docs recommend markdown_version=v2, while v1 remains the current default and is deprecated. This app exports its own conservative CommonMark, not Notion-flavored Markdown."},
+    {"title":"Retrieve page as Markdown","url":"https://developers.notion.com/reference/retrieve-page-markdown","claim":"Official endpoint documents unknown blocks, truncation and permissions. Full block JSON remains a useful structured baseline."},
+    {"title":"notion-to-md official repository","url":"https://github.com/souvikinator/notion-to-md","claim":"Existing open-source conversion baseline already handles Notion pages/blocks and nesting; this project does not claim to invent Notion conversion.","license":"MIT; reference only, no converter code bundled."}
+  ],
+  "fixtures": "All sample text, IDs, future fields and data are invented locally using documented object shapes. They are not server-validated API responses."
+}

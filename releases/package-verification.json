@@ -1,0 +1,31 @@
+{
+  "command": "python scripts/release.py",
+  "appSha256": "dba29162d61b113a17b1d147cf5cb9a16d018676d600bba50081348b651c4049",
+  "artifacts": [
+    {
+      "artifact": "notion-fidelity-web-0.1.0.zip",
+      "bytes": 148738,
+      "sha256": "87cf53e2387859ffda570600ff53d0715d0882c238faa388bdc1add90db6edb6",
+      "crc": "pass",
+      "entries": 14,
+      "bundledAppMatchesBuild": true
+    },
+    {
+      "artifact": "notion-fidelity-source-0.1.0.zip",
+      "bytes": 184410,
+      "sha256": "e0c6c7a59a5503dd23542137f03d23d5c71a5864fd5695de1128e78135c719aa",
+      "crc": "pass",
+      "entries": 30,
+      "bundledAppMatchesBuild": true
+    },
+    {
+      "artifact": "NotionFidelity-0.1.0-win-x64.zip",
+      "bytes": 158255745,
+      "sha256": "a2a87377caa8ded59472a2380bba6dedaa7743dd1d3d721217205d30969c1fa7",
+      "crc": "pass",
+      "entries": 90,
+      "bundledAppMatchesBuild": true
+    }
+  ],
+  "scope": "CRC, safe paths, absence of private investigation data, SHA-256, bundled code equality, Electron/Chromium license presence; desktop renderer smoke reported separately."
+}

@@ -1,0 +1,366 @@
+{
+  "object": "list",
+  "type": "block",
+  "block": {},
+  "has_more": false,
+  "next_cursor": null,
+  "synthetic_fixture": true,
+  "results": [
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000001",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research survives format changes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research survives format changes.",
+            "href": null
+          }
+        ],
+        "color": "default",
+        "is_toggleable": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000002",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The interesting part is not the text. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The interesting part is not the text. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "It is what the text carries.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "It is what the text carries.",
+            "href": null
+          }
+        ],
+        "color": "default",
+        "future_payload": {
+          "method": "synthetic",
+          "revision": 7
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000003",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A conversion is a model of a document, not the document itself.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A conversion is a model of a document, not the document itself.",
+            "href": null
+          }
+        ],
+        "color": "yellow_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000004",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": true,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Preserve the original structured evidence.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Preserve the original structured evidence.",
+            "href": null
+          }
+        ],
+        "color": "default",
+        "children": [
+          {
+            "object": "block",
+            "id": "00000000-0000-4000-8000-000000000005",
+            "created_time": "2026-10-31T12:00:00.000Z",
+            "has_children": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "Nested observations retain their identities in native JSON.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "Nested observations retain their identities in native JSON.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000006",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inspect exactly which fields a portable export omits.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inspect exactly which fields a portable export omits.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000007",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inline relation: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inline relation: ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "\\nabla\\cdot\\mathbf{E}=\\rho/\\varepsilon_0"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "\\nabla\\cdot\\mathbf{E}=\\rho/\\varepsilon_0",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ; synthetic reference: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ; synthetic reference: ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "00000000-0000-4000-8000-000000000099"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Imaginary field notes",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000008",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "equation",
+      "equation": {
+        "expression": "i\\hbar\\frac{\\partial}{\\partial t}\\Psi=\\hat{H}\\Psi"
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000009",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This unsupported callout remains an opaque JSON object.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This unsupported callout remains an opaque JSON object.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "!"
+        },
+        "color": "gray_background",
+        "future_setting": {
+          "preserve_me": true
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "00000000-0000-4000-8000-000000000010",
+      "created_time": "2026-10-31T12:00:00.000Z",
+      "has_children": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Official block schema",
+              "link": {
+                "url": "https://developers.notion.com/reference/block"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Official block schema",
+            "href": "https://developers.notion.com/reference/block"
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ]
+}

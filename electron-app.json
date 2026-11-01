@@ -1,0 +1,8 @@
+{
+  "name":"Research Block Fidelity",
+  "executable":"NotionFidelity",
+  "version":"0.1.0",
+  "entry":"app.html",
+  "testSelector":"#editor textarea[data-run]",
+  "docs_files":["app.html","app.css","app.js","index.html","site.css","sources.json","verification.json","browser-verification.json","desktop-verification.json","editor-desktop.png","editor-mobile.png"]
+}

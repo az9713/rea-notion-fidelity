@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-11-01T05:00:31.160Z",
+  "command": "npm run build && npm test",
+  "tests": 28,
+  "passed": 28,
+  "failed": 0,
+  "exitCode": 0,
+  "appSha256": "dba29162d61b113a17b1d147cf5cb9a16d018676d600bba50081348b651c4049",
+  "authority": "Independent JSON/core contract tests using synthetic documented-schema fixtures",
+  "realNotionIntegration": {
+    "verified": false,
+    "reason": "No installed client, user workspace, credential or network API call used."
+  },
+  "contract": "JSON-value preservation for accepted finite IEEE-754 data. Formatting/key order are not byte-exact; unsafe keys, duplicate names, unsafe integers and malformed Unicode are rejected."
+}

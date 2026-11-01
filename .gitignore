@@ -1,0 +1,8 @@
+node_modules/
+.test-build/
+investigation/
+handoff.json
+*.log
+releases/*-win-x64/
+releases/*.zip
+__pycache__/

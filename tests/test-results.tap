@@ -1,0 +1,178 @@
+TAP version 13
+# Subtest: native project round trip retains all JSON values, unknown objects and original baseline
+ok 1 - native project round trip retains all JSON values, unknown objects and original baseline
+  ---
+  duration_ms: 8.4154
+  type: 'test'
+  ...
+# Subtest: API block, array and list wrappers accepted without stripping envelope fields
+ok 2 - API block, array and list wrappers accepted without stripping envelope fields
+  ---
+  duration_ms: 1.97
+  type: 'test'
+  ...
+# Subtest: unknown block including nested content is fully opaque and noneditable
+ok 3 - unknown block including nested content is fully opaque and noneditable
+  ---
+  duration_ms: 0.6961
+  type: 'test'
+  ...
+# Subtest: nested supported children stay addressable and preserve siblings and metadata
+ok 4 - nested supported children stay addressable and preserve siblings and metadata
+  ---
+  duration_ms: 2.0218
+  type: 'test'
+  ...
+# Subtest: editing one run preserves annotations, unknown fields, run segmentation and link metadata
+ok 5 - editing one run preserves annotations, unknown fields, run segmentation and link metadata
+  ---
+  duration_ms: 0.4265
+  type: 'test'
+  ...
+# Subtest: equations preserve expression and annotation distinctions; mentions refuse editing
+ok 6 - equations preserve expression and annotation distinctions; mentions refuse editing
+  ---
+  duration_ms: 1.8645
+  type: 'test'
+  ...
+# Subtest: unknown annotation changes refuse instead of silently accepting unsupported edits
+ok 7 - unknown annotation changes refuse instead of silently accepting unsupported edits
+  ---
+  duration_ms: 0.3197
+  type: 'test'
+  ...
+# Subtest: malformed rich text and annotations are preserved opaque; formatting refuses malformed data
+ok 8 - malformed rich text and annotations are preserved opaque; formatting refuses malformed data
+  ---
+  duration_ms: 1.501
+  type: 'test'
+  ...
+# Subtest: semantic differential identifies exact edited paths and ignores object key order
+ok 9 - semantic differential identifies exact edited paths and ignores object key order
+  ---
+  duration_ms: 0.7594
+  type: 'test'
+  ...
+# Subtest: native round trip after edits preserves untouched unknown values semantically
+ok 10 - native round trip after edits preserves untouched unknown values semantically
+  ---
+  duration_ms: 5.4936
+  type: 'test'
+  ...
+# Subtest: HTML escapes malicious text and equation expressions and never renders unknown HTML
+ok 11 - HTML escapes malicious text and equation expressions and never renders unknown HTML
+  ---
+  duration_ms: 0.5999
+  type: 'test'
+  ...
+# Subtest: unsafe and unsupported URLs are retained natively but never activated in HTML/Markdown
+ok 12 - unsafe and unsupported URLs are retained natively but never activated in HTML/Markdown
+  ---
+  duration_ms: 1.0314
+  type: 'test'
+  ...
+# Subtest: Markdown escapes raw HTML from inline equations and plain text
+ok 13 - Markdown escapes raw HTML from inline equations and plain text
+  ---
+  duration_ms: 0.5572
+  type: 'test'
+  ...
+# Subtest: loss report points to metadata, unknown fields, mentions, color and omitted annotation fields
+ok 14 - loss report points to metadata, unknown fields, mentions, color and omitted annotation fields
+  ---
+  duration_ms: 2.1309
+  type: 'test'
+  ...
+# Subtest: HTML preserves basic annotations while CommonMark explicitly reports omitted underline/code/strike
+ok 15 - HTML preserves basic annotations while CommonMark explicitly reports omitted underline/code/strike
+  ---
+  duration_ms: 0.4769
+  type: 'test'
+  ...
+# Subtest: missing recursive children and incomplete pagination are explicit findings
+ok 16 - missing recursive children and incomplete pagination are explicit findings
+  ---
+  duration_ms: 0.2163
+  type: 'test'
+  ...
+# Subtest: duplicate keys rejected before overwrite, including escaped duplicate names
+ok 17 - duplicate keys rejected before overwrite, including escaped duplicate names
+  ---
+  duration_ms: 0.5502
+  type: 'test'
+  ...
+# Subtest: prototype-pollution keys rejected at every depth and no prototype is mutated
+ok 18 - prototype-pollution keys rejected at every depth and no prototype is mutated
+  ---
+  duration_ms: 0.2257
+  type: 'test'
+  ...
+# Subtest: malformed JSON, trailing data, unsupported envelopes and page exports fail closed
+ok 19 - malformed JSON, trailing data, unsupported envelopes and page exports fail closed
+  ---
+  duration_ms: 0.2278
+  type: 'test'
+  ...
+# Subtest: finite safe number and Unicode contract rejects unsafe integers, negative zero and lone surrogates
+ok 20 - finite safe number and Unicode contract rejects unsafe integers, negative zero and lone surrogates
+  ---
+  duration_ms: 0.1672
+  type: 'test'
+  ...
+# Subtest: size, depth, strings and block count bounds are enforced
+ok 21 - size, depth, strings and block count bounds are enforced
+  ---
+  duration_ms: 20.1186
+  type: 'test'
+  ...
+# Subtest: document schema rejects malformed children and two competing child representations
+ok 22 - document schema rejects malformed children and two competing child representations
+  ---
+  duration_ms: 0.3995
+  type: 'test'
+  ...
+# Subtest: request-sized edits never split rich text or equations silently
+ok 23 - request-sized edits never split rich text or equations silently
+  ---
+  duration_ms: 1.6793
+  type: 'test'
+  ...
+# Subtest: appending known blocks retains opaque existing blocks and can be natively round-tripped
+ok 24 - appending known blocks retains opaque existing blocks and can be natively round-tripped
+  ---
+  duration_ms: 1.891
+  type: 'test'
+  ...
+# Subtest: unknown native-envelope fields are rejected rather than silently discarded
+ok 25 - unknown native-envelope fields are rejected rather than silently discarded
+  ---
+  duration_ms: 0.9907
+  type: 'test'
+  ...
+# Subtest: native envelope reserves space for baseline so a large accepted document still reimports
+ok 26 - native envelope reserves space for baseline so a large accepted document still reimports
+  ---
+  duration_ms: 91.3635
+  type: 'test'
+  ...
+# Subtest: native baseline reservation also preserves depth/node reimport bounds
+ok 27 - native baseline reservation also preserves depth/node reimport bounds
+  ---
+  duration_ms: 83.6398
+  type: 'test'
+  ...
+# Subtest: malformed cached text is rejected on edit instead of overwriting an opaque value
+ok 28 - malformed cached text is rejected on edit instead of overwriting an opaque value
+  ---
+  duration_ms: 0.3649
+  type: 'test'
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1508.442

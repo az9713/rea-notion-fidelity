@@ -1,0 +1,3 @@
+87cf53e2387859ffda570600ff53d0715d0882c238faa388bdc1add90db6edb6  notion-fidelity-web-0.1.0.zip
+e0c6c7a59a5503dd23542137f03d23d5c71a5864fd5695de1128e78135c719aa  notion-fidelity-source-0.1.0.zip
+a2a87377caa8ded59472a2380bba6dedaa7743dd1d3d721217205d30969c1fa7  NotionFidelity-0.1.0-win-x64.zip
