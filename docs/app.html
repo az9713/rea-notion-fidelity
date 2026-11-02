@@ -16,10 +16,29 @@
 .rea-figure-metric{font-size:clamp(19px,2.5vw,28px)!important;line-height:1.4!important;overflow-wrap:anywhere}
 @media(max-width:760px){.rea-story-flow{grid-template-columns:1fr;gap:18px}.rea-story{margin:22px 0 30px!important}.rea-story--compact{margin:12px 0 20px!important}}
 /* rea-editorial:end */
+
+/* rea-pages-expectations:style:start */
+.rea-expectations{box-sizing:border-box;min-width:0;width:100%;margin:24px 0 32px!important;padding:clamp(18px,3vw,28px);background:#16232e;border:1px solid #4b606d;border-left:4px solid #e1c185;border-radius:8px;color:#e8eef4;font:16px/1.65 system-ui,sans-serif;text-align:left;overflow-wrap:anywhere}
+.rea-expectations .rea-expectations-tag{margin:0 0 10px!important;color:#ead2a6!important;font:600 13px/1.5 system-ui,sans-serif!important;letter-spacing:.02em!important;text-transform:none!important;max-width:none}
+.rea-expectations .rea-expectations-title{margin:0 0 20px!important;padding:0!important;border:0!important;color:#f1f5f9!important;font:650 clamp(21px,3vw,27px)/1.3 system-ui,sans-serif!important;letter-spacing:-.015em!important;text-transform:none!important}
+.rea-expectations dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px;margin:0!important;padding:0!important}
+.rea-expectations dl>div{min-width:0;margin:0!important;padding:0!important}
+.rea-expectations dt{margin:0 0 6px!important;padding:0!important;color:#a7dfcd;font:650 15px/1.5 system-ui,sans-serif}
+.rea-expectations dd{margin:0!important;padding:0!important;color:#d4e0ea;font:inherit;max-width:none}
+.rea-expectations--compact{font-size:15px;margin:18px 0 24px!important;padding:18px}
+.rea-expectations--compact .rea-expectations-title{font-size:21px!important}
+@media(max-width:760px){.rea-expectations dl{grid-template-columns:1fr;gap:18px}.rea-expectations{margin:20px 0 26px!important}}
+
+/* rea-pages-expectations:style:end */
+
 </style>
 </head>
 <body><header class="app-header"><a href="index.html" class="brand">RESEARCH BLOCK FIDELITY <span>v0.1</span></a><div class="header-actions"><button id="undo" disabled>Undo</button><button id="save-project" class="primary">Save native project</button></div></header>
 <main><section class="intro"><div><p class="eyebrow">INDEPENDENT EDITOR · LOCAL FILES · DOCUMENTED API SHAPES</p><h1>Keep the structure.<br>Expose the compromise.</h1><p>A readable copy of a rich note may lose details such as formatting, equations or unfamiliar content blocks. This editor keeps the richer structured data and shows what its own Markdown or HTML export cannot carry across.</p></div><div class="metrics"><div><b id="block-count">0</b><span>blocks</span></div><div><b id="opaque-count">0</b><span>opaque</span></div><div><b id="diff-count">0</b><span>field edits</span></div></div></section>
+
+<!-- rea-pages-expectations:start -->
+<section class="rea-expectations rea-expectations--compact" data-rea-expectations="notion-fidelity" aria-labelledby="release-expectations-notion-fidelity"><p class="rea-expectations-tag">Experimental release · Standalone companion tool</p><h2 class="rea-expectations-title" id="release-expectations-notion-fidelity">What to expect from this release</h2><dl><div><dt>What you get</dt><dd data-expectation="delivery">A standalone Windows/browser editor for supported Notion-style block data. Editing, preservation checks and export-loss reports happen in this local tool.</dd></div><div><dt>Verified so far</dt><dd data-expectation="verified">Supported block edits, retention of unknown data, export-loss reports and browser/package behavior were tested using supplied data.</dd></div><div><dt>Still needs testing or implementation</dt><dd data-expectation="remaining">Live Notion import, writing changes back to an account and compatibility with real workspace content remain unverified. Its loss report describes its own exports.</dd></div><div><dt>Relationship to the original app</dt><dd data-expectation="boundary">Installing it does not change the Notion client or update a Notion workspace. Direct workspace editing would require additional account connection, synchronization and compatibility work.</dd></div></dl></section>
+<!-- rea-pages-expectations:end -->
 <section class="rea-story rea-story--compact" data-rea-story="compact"><h2>Start with the example</h2><p>The browser opens an invented research note. It needs no Notion login and does not upload your files. It is not a full Notion page renderer.</p><p><strong>Your task:</strong> Change supported text or equations. Preview a simpler export and read the list of details it would omit.</p><p class="rea-story-scope"><a href="https://az9713.github.io/rea-notion-fidelity/">Read the plain-language guide, supported uses and testing limits</a></p></section>
 
 <div id="notice" class="notice" role="status" aria-live="polite">Synthetic notes loaded. Your files are processed locally and are never uploaded.</div>
