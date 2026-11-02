@@ -12,6 +12,18 @@ Suppose you want to move research notes into plain-text notes or a web page. The
 
 [Live guide](https://az9713.github.io/rea-notion-fidelity/) · [Download packages](https://github.com/az9713/rea-notion-fidelity/releases/tag/v0.1.0)
 
+<!-- rea-release-expectations:start -->
+## What to expect from this release
+
+**Status: experimental.** Read the tested scope and remaining work below before choosing this release for your workflow.
+
+- **What you get:** A standalone Windows/browser editor for supported Notion-style block data. Editing, preservation checks and export-loss reports happen in this local tool.
+- **Verified so far:** Supported block edits, retention of unknown data, export-loss reports and browser/package behavior were tested using supplied data.
+- **Still needs testing or implementation:** Live Notion import, writing changes back to an account and compatibility with real workspace content remain unverified. Its loss report describes its own exports.
+- **Relationship to the original app:** Installing it does not change the Notion client or update a Notion workspace. Direct workspace editing would require additional account connection, synchronization and compatibility work.
+
+<!-- rea-release-expectations:end -->
+
 ![Actual Chromium application screenshot using synthetic notes](https://az9713.github.io/rea-notion-fidelity/editor-desktop.png)
 
 
